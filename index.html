@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
 </head>
 <body>
     <header>
@@ -27,10 +27,10 @@
     </header>
     <main>
         <section class="banner">
-            <button class="banner-Rectangle" type="button"></button>
-            <button class="banner-Rectangle" type="button"></button>
-            <button class="banner-Rectangle" type="button"></button>
-            <button class="banner-Rectangle" type="button"></button>
+            <button class="banner-button" type="button"></button>
+            <button class="banner-button" type="button"></button>
+            <button class="banner-button" type="button"></button>
+            <button class="banner-button" type="button"></button>
             <h1>THE OOH NOO COLLECTION</h1>
             <img src="img-index/banner.png" alt="" width="636" height="489">
             <h3>Designed in Slovenia</h3>
@@ -51,8 +51,6 @@
                 <li>
                        <a href="#">
                            <img src="img-index/products 2.png" alt="" width="208" height="244">
-                       </a>
-                       <a href="#">
                            <h4>HOLIDAY SHOP</h4>
                        </a>
                 </li>
@@ -61,8 +59,6 @@
                 <li>
                        <a href="#">
                            <img src="img-index/products 3.png" alt="" width="270" height="270">
-                       </a>
-                       <a href="#">
                            <h4>TOYS</h4>
                        </a>
                 </li>
@@ -71,8 +67,6 @@
                 <li>
                        <a href="#">
                            <img src="img-index/products 4.png" alt="" width="240" height="250">
-                       </a>
-                       <a href="#">
                            <h4>ACCESSORIES</h4>
                        </a>
                 </li>
@@ -94,24 +88,18 @@
                     <h2>Delivery</h2>
                 </li>
                 <li>
-                    <button type="button" class="banner-Rectangle">Delivery</button>
+                    <button type="button" ">Delivery</button>
                 </li>
                 <li>
-                    <button type="button" class="banner-Rectangle">Guarantee</button>
+                    <button type="button" ">Guarantee</button>
                 </li>
                 <li>
-                    <button type="button" class="banner-Rectangle">Credit</button>
+                    <button type="button" ">Credit</button>
                 </li>
-                <li>
-                    <p>Some days i feel like i've been working on dlk my entire life and <br> there are other days that i am completely shocked that four <br> years have flown by. It's simply magical.</p>
-                </li>
-                <li>
-                    <p>What started as an outlet to deal  with the traumatic loss of my <br> husband, dlk has now become a truly happy place for me and i <br> have you and all of the beautiful designers that we work with <br> to thank!</p>
-                </li>
-                <li>
-                    <a href="#" class="button">LEARN MORE</a>
-                </li>
-            </ul> 
+            </ul>
+            <p>Some days i feel like i've been working on dlk my entire life and <br> there are other days that i am completely shocked that four <br> years have flown by. It's simply magical.</p>
+            <p>What started as an outlet to deal  with the traumatic loss of my <br> husband, dlk has now become a truly happy place for me and i <br> have you and all of the beautiful designers that we work with <br> to thank!</p>
+            <a href="#" class="button">LEARN MORE</a> 
         </section>
         <div>
             <ul>
@@ -129,17 +117,17 @@
                 </li>
             </ul>
         </div>
-        <article>
+        <div>
             <h2>Design Life Kids</h2>
             <h3>About Us</h3>
             <p>Some days i feel like i've been working on dlk my entire life and <br> there are other days that i am completely shocked that four <br> years have flown by. It's simply magical.</p>
             <a href="#" class="button">BUY NOW</a>
-        </article>
-        <article>
+        </div>
+        <div>
             <h2>Contacts</h2>
             <p>Some days i feel like i've been working on dlk my entire life and <br> there are other days that i am completely shocked that four <br> years have flown by. It's simply magical.</p>
             <img src="img-index/map.png" alt="" width="483" height="196">
-        </article>
+        </div>
     </main>
     <footer>
         <div>
@@ -235,7 +223,38 @@
         </div>
         <p>Company Rating</p>
         <p>Copyright © 2018 Dlk • Design Life Kids</p>
-        <p>Web Design — Direct Line Development</p>
+        <a href="https://directline.digital/">Web Design — Direct Line Development</a>
     </footer>
+    <section class="modal">
+        <h3>Modal window</h3>
+        <form action="#" method="post">
+            <fieldset>
+                <div>
+                    <span>Name</span>
+                    <input type="text">
+                </div>
+                <div>
+                    <div>
+                        <span>Phone</span>
+                        <input type="tel"> 
+                    </div>
+                    <div>
+                        <span>E-mail</span>
+                        <input type="email"> 
+                    </div>
+                </div>
+                <div>
+                    <span>Message</span>
+                    <input type="text">
+                </div>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox">
+                <p>By clicking on the button, you consent to the processing of your personal data</p>
+                <a href="#" class="button">Submit</a>
+            </fieldset>
+            </section>
+        </form>
+    </section>
 </body>
 </html>
