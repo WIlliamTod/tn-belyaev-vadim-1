@@ -5,6 +5,52 @@ body{
     color:#1E0606;
     ;
 }
+.title-one {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+.title-two {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+.title-three {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+}
+.title-four {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+.title-five {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+.title-six {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
 a {
     text-decoration: none;
 }
@@ -25,6 +71,17 @@ a {
 .button:active {
     background: #CFAF91;
 }
+.button-delivery {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+}
+.button-delivery:hover {
+    font-weight: bold;
+    background: rgba(112, 187, 220, 0.2);
+}
 .banner:after {
     content:'';
     display: block;
@@ -38,4 +95,37 @@ a {
     display: flex;
     align-items: center;
     text-transform: uppercase;
+}
+.footer {
+    background: #434343;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.Headings {
+    color: #AAAAAA;
+}
+.undotted {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.header-contact {
+font-weight: bold;
+display: flex;
+align-items: center;
+text-transform: uppercase;
 }
