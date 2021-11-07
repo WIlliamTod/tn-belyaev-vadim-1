@@ -213,6 +213,7 @@ a {
     left: 0;
     height: 100vh;
     width: 100%;
+    display: none;
 }
 .popup-form {
     max-width: 680px;
