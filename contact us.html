@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Contact Us</title>
 </head>
@@ -28,10 +32,13 @@
     </header>
     <main>
         <section class="contact">
-            <h1>Contact Us</h1>
-            <a href="index.html">Home</a>
-            <span>Contact Us</span>
-            <form action="#" method="post">
+            <h1 class="title-one">Contact Us</h1>
+            <a href="index.html" class="bread_crumbs-active">Home</a>
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
+                </svg>                
+            <span class="bread_crumbs-inactive">Contact Us</span>
+            <form action="#" method="post" class="form">
                 <fieldset>
                     <div>
                         <span>Name</span>
@@ -62,7 +69,7 @@
         <div>
             <p>Our support team are on-hand to assist with any <br> issues you are experiencing.</p>
             <p>Please use the form to contact us with your needs. <br> Send us a message and we'll respond as soon as <br> possible.</p>
-            <div>An expert is waiting to <br> help you!</div>
+            <div class="expert">An expert is waiting to <br> help you!</div>
         </div>
     </main>
     <footer class="footer">
@@ -70,22 +77,22 @@
             <p class="Headings">Navigation</p>
             <ul class="undotted">
                 <li>
-                    <a href="#" target="_blank">About Us</a>
+                    <a href="#" target="_blank" class="footer-link">About Us</a>
                 </li>
                 <li>
-                    <a href="blog.html" target="_blank">Blog</a>
+                    <a href="blog.html" target="_blank" class="footer-link">Blog</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Design Services</a>
+                    <a href="#" target="_blank" class="footer-link">Design Services</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Featured On</a>
+                    <a href="#" target="_blank" class="footer-link">Featured On</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">2018 Holiday Catalog</a>
+                    <a href="#" target="_blank" class="footer-link">2018 Holiday Catalog</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Shop By Designer</a>
+                    <a href="#" target="_blank" class="footer-link">Shop By Designer</a>
                 </li>
             </ul>
         </div>
@@ -93,22 +100,22 @@
             <p class="Headings">Customer Information</p>
             <ul class="undotted">
                 <li>
-                    <a href="#" target="_blank">Contact Us</a>
+                    <a href="contact us.html" target="_blank" class="footer-link">Contact Us</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Sale Exclusions</a>
+                    <a href="#" target="_blank" class="footer-link">Sale Exclusions</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Shipping & Returns</a>
+                    <a href="#" target="_blank" class="footer-link">Shipping & Returns</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Terms & Conditions</a>
+                    <a href="#" target="_blank" class="footer-link">Terms & Conditions</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Privacy Policy</a>
+                    <a href="#" target="_blank" class="footer-link">Privacy Policy</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Search</a>
+                    <a href="#" target="_blank" class="footer-link">Search</a>
                 </li>
             </ul>
         </div>
@@ -174,7 +181,7 @@
             <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
             </svg>
         <p>Copyright © 2018 Dlk • Design Life Kids</p>
-        <a href="https://directline.digital/">Web Design — Direct Line Development</a>
+        <a href="https://directline.digital/" class="directline">Web Design — Direct Line Development</a>
     </footer>
 </body>
 </html>
