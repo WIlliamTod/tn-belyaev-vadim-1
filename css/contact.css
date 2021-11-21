@@ -1,0 +1,15 @@
+.button-submit {
+max-width: 106px;
+}
+.form {
+    background: #E5EAF8;
+}
+.expert {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+}
