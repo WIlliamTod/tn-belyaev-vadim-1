@@ -5,12 +5,13 @@
 }
 .banner {
     background: #EEE4DB center;
-    margin-left: 110px;
-    margin-right: 110px;
+    /* margin-left: 110px;
+    margin-right: 110px; */
     display: flex;
     justify-content: space-between;
-    margin-top: 129px;
+    margin: 129px auto 0;
     height: 372px;
+    width: 1180px;
 }
 .first-section {
     margin-left: 28px;
@@ -40,10 +41,11 @@
     flex-direction: column;
     margin-left: 44px;
     margin-top: 89px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 .title-one {
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    max-width: 100%;
 }
 .banner-logo {
     display: block;
@@ -56,8 +58,9 @@
     text-transform: uppercase;
     padding: 11px;
     color: #FFFFFF;
-    margin: 0 110px;
+    margin: 0 auto;
     margin-bottom: 90px;
+    width: 1180px;
 }
 .button-explore {
     max-width: 161px;
